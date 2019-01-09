@@ -1,9 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if (number == 1)
-    return true
-  end
-  if (number < 1)
+  if (number <= 1)
     return false
   end
   for item in 2...number
